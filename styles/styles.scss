@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  //   font-family: "Fraunces", serif;
+  //   font-family: "Montserrat", sans-serif;
+  //   font-family: "Roboto Condensed", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .container {
+    width: 380px;
+    height: 680px;
+    padding-top: 10px;
+    background-color: #f0d14a;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    table {
+      color: #d92421;
+    }
+    .title-coffee {
+      table {
+        border-bottom: 2px solid #67eaf0;
+        tr {
+          td {
+            // padding: 0 10px 0 10px;
+            width: 70px;
+            font-size: 10px;
+            text-align: center;
+          }
+          td:nth-child(1) {
+            width: 155px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: left;
+          }
+          td:nth-child(2) {
+            width: 45px;
+          }
+        }
+      }
+    }
+    .coffee {
+      table {
+        line-height: 110%;
+        margin: 5px 0 5px 0;
+        tr {
+          .english {
+            font-size: 10px;
+          }
+          td {
+            padding-top: 5px;
+            width: 70px;
+            font-size: 10px;
+            text-align: center;
+          }
+          td:nth-child(1) {
+            width: 140px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: left;
+          }
+          td:nth-child(2) {
+            width: 60px;
+          }
+          td:nth-child(3) {
+            font-weight: bold;
+            font-size: 14px;
+          }
+          td:nth-child(4) {
+            font-weight: bold;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .title-milks {
+      table {
+        border-bottom: 2px solid #67eaf0;
+        tr {
+          td {
+            // padding: 0 10px 0 10px;
+            width: 70px;
+            font-size: 10px;
+            text-align: center;
+          }
+          td:nth-child(1) {
+            width: 130px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    .milks {
+      table {
+        line-height: 110%;
+        margin: 5px 0 5px 0;
+        tr {
+          .english {
+            font-size: 10px;
+          }
+          td {
+            padding-top: 5px;
+            width: 70px;
+            font-size: 10px;
+            text-align: center;
+          }
+          td:nth-child(1) {
+            width: 140px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: left;
+          }
+          td:nth-child(2) {
+            width: 60px;
+          }
+          td:nth-child(3) {
+            font-weight: bold;
+            font-size: 14px;
+          }
+          td:nth-child(4) {
+            font-weight: bold;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .upgrades {
+      position: absolute;
+      bottom: 0;
+      width: 350px;
+      height: 80px;
+      background-color: #f05652;
+      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      div {
+        padding: 10px;
+      }
+      .prise {
+        text-align: right;
+      }
+      .upgrades-title {
+        color: #f0d14a;
+      }
+    }
+  }
+}

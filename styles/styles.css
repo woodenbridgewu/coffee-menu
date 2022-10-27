@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .container {
+  width: 380px;
+  height: 680px;
+  padding-top: 10px;
+  background-color: #f0d14a;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+body .container table {
+  color: #d92421;
+}
+body .container .title-coffee table {
+  border-bottom: 2px solid #67eaf0;
+}
+body .container .title-coffee table tr td {
+  width: 70px;
+  font-size: 10px;
+  text-align: center;
+}
+body .container .title-coffee table tr td:nth-child(1) {
+  width: 155px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+body .container .title-coffee table tr td:nth-child(2) {
+  width: 45px;
+}
+body .container .coffee table {
+  line-height: 110%;
+  margin: 5px 0 5px 0;
+}
+body .container .coffee table tr .english {
+  font-size: 10px;
+}
+body .container .coffee table tr td {
+  padding-top: 5px;
+  width: 70px;
+  font-size: 10px;
+  text-align: center;
+}
+body .container .coffee table tr td:nth-child(1) {
+  width: 140px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+body .container .coffee table tr td:nth-child(2) {
+  width: 60px;
+}
+body .container .coffee table tr td:nth-child(3) {
+  font-weight: bold;
+  font-size: 14px;
+}
+body .container .coffee table tr td:nth-child(4) {
+  font-weight: bold;
+  font-size: 14px;
+}
+body .container .title-milks table {
+  border-bottom: 2px solid #67eaf0;
+}
+body .container .title-milks table tr td {
+  width: 70px;
+  font-size: 10px;
+  text-align: center;
+}
+body .container .title-milks table tr td:nth-child(1) {
+  width: 130px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+body .container .milks table {
+  line-height: 110%;
+  margin: 5px 0 5px 0;
+}
+body .container .milks table tr .english {
+  font-size: 10px;
+}
+body .container .milks table tr td {
+  padding-top: 5px;
+  width: 70px;
+  font-size: 10px;
+  text-align: center;
+}
+body .container .milks table tr td:nth-child(1) {
+  width: 140px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+body .container .milks table tr td:nth-child(2) {
+  width: 60px;
+}
+body .container .milks table tr td:nth-child(3) {
+  font-weight: bold;
+  font-size: 14px;
+}
+body .container .milks table tr td:nth-child(4) {
+  font-weight: bold;
+  font-size: 14px;
+}
+body .container .upgrades {
+  position: absolute;
+  bottom: 0;
+  width: 350px;
+  height: 80px;
+  background-color: #f05652;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+body .container .upgrades div {
+  padding: 10px;
+}
+body .container .upgrades .prise {
+  text-align: right;
+}
+body .container .upgrades .upgrades-title {
+  color: #f0d14a;
+}/*# sourceMappingURL=styles.css.map */
